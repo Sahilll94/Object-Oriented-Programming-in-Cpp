@@ -12,10 +12,15 @@ public:
     string name;
     int roll;
 
-    // Ctor;
-    Student()
+    // parameterised Ctor;
+    Student(int id, int age, string names, int roll)
     {
-        cout<<"Student default constructor is called"<<endl;
+        cout<<"Student parameterised Ctor is called"<<endl;
+        this->id = id;
+        this->age = age;
+        this->name = names; //nameS, s is there extra;
+        this->roll = roll;
+        
     }
 
     // Member functions
@@ -44,23 +49,8 @@ public:
 
 int main()
 {
-    Student s1; 
-    s1.id = 1;
-    s1.age = 20;
-    s1.name = "Sahil";
-    s1.roll = 9;
-
-    s1.study();
-
-    Student s2; 
-    s2.id = 2;
-    s2.age = 19;
-    s2.name = "Ishita";
-    s2.roll = 10;
-
-    s2.bunk();
-
-
+    // Parameterised way
+    Student s1(1,20,"Sahil",9);
 
     return 0;    
 }
