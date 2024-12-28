@@ -16,6 +16,7 @@ public:
     Student(int id, int age, string names, int roll)
     {
         cout<<"Student parameterised Ctor is called"<<endl;
+        // the below using this keyword sets the attributes with the values that came from the parameter;
         this->id = id;
         this->age = age;
         this->name = names; //nameS, s is there extra;
@@ -51,6 +52,17 @@ int main()
 {
     // Parameterised way
     Student s1(1,20,"Sahil",9);
+    Student s2(2,19,"Ishita",10);
+
+    cout<<"----------------------"<<endl;
+
+    cout<<"Name of s1 object: "<<s1.name<<" With age "<<s1.age<<endl;
+
+    s1.study();
+    s2.sleep();
+
+    cout<<"----------------------"<<endl;
+
 
     return 0;    
 }
