@@ -51,7 +51,7 @@ public:
 int main()
 {
     // Parameterised way
-    Student s1(1,20,"Sahil",9);
+    Student s1(1,20,"Sahil",9); // over STACK object creation;
     Student s2(2,19,"Ishita",10);
 
     cout<<"----------------------"<<endl;

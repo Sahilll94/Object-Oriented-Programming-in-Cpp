@@ -46,6 +46,7 @@ public:
 
 int main()
 {
+    // All these object creation is happening over STACK;
     Student s1; //Now, constructor is called as it initialize the object s1;
     s1.id = 1;
     s1.age = 20;

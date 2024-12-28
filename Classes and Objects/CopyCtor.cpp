@@ -49,13 +49,16 @@ public:
 
 int main()
 {
-    Student s1(1,20,"sahil",9);
+
+    Student s1(1,20,"sahil",9); // over STACK object creation;
 
     cout<<"----------------------"<<endl;
 
     cout<<"The name of s1 object is "<<s1.name<<" with roll no. "<<s1.roll<<endl;
-
-    Student s2 = s1;
+    
+    //Here, line 58, copy CTOR is called;
+    Student s2 = s1; 
+    // Student s2(s2); //ANOTHER WAY OF COPY CTOR;
 
     cout<<"The name of s2 COPY object is "<<s2.name<<" with roll no. "<<s2.roll<<endl;
 
