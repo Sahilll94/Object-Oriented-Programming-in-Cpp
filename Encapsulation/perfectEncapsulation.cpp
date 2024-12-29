@@ -1,21 +1,18 @@
 #include<iostream>
 using namespace std;
 
-
 // This file is to explain PERFECT ENCAPSULATION and use of getter and setter;
-
 
 class Student
 {
-
 private:
+    // All attributes are private here;
     int age;
     string name;
     int roll;
     string GirlfriendName;
 
 public:
-
     // CTOR 
     Student(int a, string n, int r, string gf)
     {
@@ -34,13 +31,13 @@ public:
     }
 
     // Getter to return GirlfriendName where getter simply allows you to access the private data but through a function;
-    string getGirlfriendName()
+    string getGirlfriendName() const
     {
         return this->GirlfriendName;
     }
 
     // Getter to return name;
-    string getName()
+    string getName() const
     {
         return this->name;
     }
@@ -79,10 +76,12 @@ int main()
     cout<<"--------------------------------------------"<<endl;
 
     // not accessible
-    // cout<<s1.age()<<endl; 
+    // cout<<s1.age<<endl; 
 
+    // Setter to update the girlfriend name;
     s1.setGirlfriendName("ariana");
 
+                                //Getter to get name and girlfriendname;
     cout<<"New girlfriend of "<<s1.getName()<<" is "<<s1.getGirlfriendName()<<endl;
 
 
