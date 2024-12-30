@@ -59,6 +59,7 @@
   "files.associations": {
     "*.ndjson": "jsonl",
     "*.dbclient-js": "javascript",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iostream": "cpp"
   }
 }
