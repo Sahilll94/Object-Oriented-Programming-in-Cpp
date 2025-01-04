@@ -41,23 +41,23 @@ The repository is structured to cover the following major C++ concepts:
 
 1. **Classes and Objects**  
    Explore the foundation of object-oriented programming in C++. Learn how to define classes, create objects, and understand the relationship between them.  
-   📂 Folder: `classes_and_objects/`
+   📂 Folder: `1. Classes and Objects/`
 
 2. **Encapsulation**  
    Understand how encapsulation helps in hiding the internal implementation of a class and securing data using access specifiers.  
-   📂 Folder: `encapsulation/`
+   📂 Folder: `2. Encapsulation/`
 
 3. **Inheritance**  
    Learn how to reuse existing code using inheritance. Understand single, multilevel, hierarchical, and multiple inheritance with examples.  
-   📂 Folder: `inheritance/`
+   📂 Folder: `3. Inheritance/`
 
 4. **Polymorphism**  
    Delve into compile-time (function overloading, operator overloading) and runtime polymorphism (function overriding, virtual functions).  
-   📂 Folder: `polymorphism/`
+   📂 Folder: `4. Polymorphism/`
 
 5. **Abstraction**  
    Learn how to simplify complex systems by using abstract classes and pure virtual functions to define interfaces.  
-   📂 Folder: `abstraction/`
+   📂 Folder: `5. Abstraction/`
 
 ---
 
@@ -77,13 +77,13 @@ The repository is structured to cover the following major C++ concepts:
    cd Object-Oriented-Programming-in-Cpp
 2. **Navigate to the folder of interest**:  
     ```bash
-    cd 1.inheritance
+    cd 1. Inheritance
     ```
 
 3. **Compile and run the code**:  
     ```bash
-    g++ inheritance_example.cpp -o inheritance_example
-    ./inheritance_example
+    g++ main.cpp -o main
+    ./main
     ```
 
 ---
