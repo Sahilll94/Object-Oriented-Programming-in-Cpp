@@ -73,8 +73,8 @@ The repository is structured to cover the following major C++ concepts:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/Object-Oriented-Programming-in-Cpp.git
-   cd cpp-concepts
+   git [clone https://github.com/yourusername/Object-Oriented-Programming-in-Cpp.git](https://github.com/Sahilll94/Object-Oriented-Programming-in-Cpp.git)
+   cd Object-Oriented-Programming-in-Cpp
 2. **Navigate to the folder of interest**:  
     ```bash
     cd 1.inheritance
