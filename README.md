@@ -1,4 +1,4 @@
-# Object oriented programming in CPP where I have written the codes with respect to real life scenario Examples 🚀
+# Object oriented programming in CPP with respect to real life scenario Examples 🚀
 
 Welcome to the **C++ Concepts** repository! This repository serves as a comprehensive guide to understanding fundamental and advanced concepts in C++ programming. Each concept is explained with well-documented code examples, organized into dedicated folders for easy navigation.
 
